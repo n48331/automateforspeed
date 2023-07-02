@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e2e2e2;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    /* Customize the "Choose File" button */
+    background-color: #005af0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    background-color: #005af0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
