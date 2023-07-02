@@ -3,7 +3,7 @@ from django.conf import settings
 import os
 import html
 from bs4 import BeautifulSoup
-import aspose.words as aw
+# import aspose.words as aw
 from django.http import JsonResponse
 
 html_parser = 'html.parser'
